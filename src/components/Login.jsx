@@ -65,7 +65,7 @@ const Login = () => {
             className='w-full grid grid-cols-2 t'>
               {/* card 1*/}
             <div className='flex flex-row'>
-              <div className='w-[205px] h-[265px] absolute top-[250px] right-[620px] bg-[#4A1A8F] rounded-3xl -rotate-[9deg] flex justify-center items-center text-gray-100'>
+              <div className='w-[205px] h-[265px] md:relative top-[50px] right-[-65px] bg-[#4A1A8F] rounded-3xl -rotate-[9deg] flex justify-center items-center text-gray-100'>
                 <img className=' w-[55px] h-[55px] object-contain' src={Phone} alt="phone" />  
                 <h1 className='absolute bottom-3 font-medium text-lg'>+91 9820840946</h1>           
               </div>              
