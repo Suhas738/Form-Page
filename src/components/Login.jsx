@@ -12,7 +12,7 @@ const Login = () => {
     <div name='about' className='w-full h-screen bg-white text-gray-950'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         {/* Heading*/} 
-        <div className='max-w-[800px] w-full '> 
+        <div className='max-w-[800px] w-full'> 
             <motion.div variants={staggerContainer}
                           initial="hidden"
                           whileInView="show"
@@ -28,7 +28,7 @@ const Login = () => {
               
               <motion.div variants={textVariant(0.5)}>
                 <h1 className='text-4xl font-bold'>Get in Touch!</h1>
-                <p className='text-4xl text-[#522A8F]'>Bake your mark with pango</p>
+                <p className='text-4xl text-[#522A8F]'>Bake Your Mark with Pango</p>
               </motion.div>
             </motion.div>         
         </div>    
@@ -40,19 +40,19 @@ const Login = () => {
             <h1>
                 Name
             </h1>
-            <input className='w-[550px] my-4 p-2 opacity-50 inline border-b-4 border-pink-600' type="text" placeholder='Your Name is' name='name' />
+            <input className='w-[550px] my-4 p-2 placeholder:opacity-50 inline border-b-4 border-[#000000]' type="text" placeholder='Your Name is' name='name' />
             <h2>
                 Email
             </h2>
-            <input className='w-[550px] my-4 p-2 opacity-50 inline border-b-4 border-pink-600'  type="email" placeholder='Where can we email you' name='email' />
+            <input className='w-[550px] my-4 p-2 placeholder:opacity-50 inline border-b-4 border-[#000000]'  type="email" placeholder='Where can we email you' name='email' />
             <h3>
                 Phone number
             </h3>
-            <input className=' w-[550px] my-4 p-2 opacity-50 inline border-b-4 border-pink-600'  type="tel" placeholder='Your phone number' name='phone' />
+            <input className=' w-[550px] my-4 p-2 placeholder:opacity-50 inline border-b-4 border-[#000000]'  type="tel" placeholder='Your phone number' name='phone' />
             <h4>
                 Message
             </h4>
-            <textarea className='w-[550px] my-4 p-2  opacity-50 border-0 outline-none inline border-b-4 border-pink-600 placeholder:translate-y-20 ' name="message" rows="4" cols="24" placeholder='Message'></textarea>
+            <textarea className='w-[550px] my-4 p-2  placeholder:opacity-50 border-0 outline-none inline border-b-4 border-[#000000] placeholder:translate-y-20 ' name="message" rows="4" cols="24" placeholder='Message'></textarea>
             <div className='text-center'>
               <button className='w-[200px] bg-[#430898] text-2xl text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto  rounded-full'>Submit</button>
             </div>
@@ -65,7 +65,7 @@ const Login = () => {
             className='w-full grid grid-cols-2 t'>
               {/* card 1*/}
             <div className='flex flex-row'>
-              <div className='w-[205px] h-[265px] md:relative top-[50px] right-[-65px] bg-[#4A1A8F] rounded-3xl -rotate-[9deg] flex justify-center items-center text-gray-100'>
+              <div className='w-[205px] h-[265px] md:relative top-[50px] right-[-95px] bg-[#4A1A8F] rounded-3xl -rotate-[9deg] flex justify-center items-center text-gray-100'>
                 <img className=' w-[55px] h-[55px] object-contain' src={Phone} alt="phone" />  
                 <h1 className='absolute bottom-3 font-medium text-lg'>+91 9820840946</h1>           
               </div>              
